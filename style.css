@@ -1,0 +1,210 @@
+/* Gaya untuk elemen body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+img:hover {
+  animation: rotateAndScale 1s infinite;
+}
+
+.text {
+  text-align: center;
+  float: center;
+  animation: ;
+}
+
+h2 {
+  animation: textGlow 6s ease-in-out infinite;
+}
+
+@keyframes textGlow {
+  0% {
+    color: #ff4136;
+  }
+  6.25% {
+    color: #ff851b;
+  }
+  12.5% {
+    color: #ffdc00;
+  }
+  18.75% {
+    color: #2ecc40;
+  }
+  25% {
+    color: #0074d9;
+  }
+  31.25% {
+    color: #7fdbff;
+  }
+  37.5% {
+    color: #b10dc9;
+  }
+  43.75% {
+    color: #f012be;
+  }
+  50% {
+    color: #85144b;
+  }
+  56.25% {
+    color: #ff4136;
+  }
+  62.5% {
+    color: #ff851b;
+  }
+  68.75% {
+    color: #ffdc00;
+  }
+  75% {
+    color: #2ecc40;
+  }
+  81.25% {
+    color: #0074d9;
+  }
+  87.5% {
+    color: #7fdbff;
+  }
+  93.75% {
+    color: #b10dc9;
+  }
+  100% {
+    color: #f012be;
+  }
+}
+
+@keyframes rotateAndScale {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(0);
+  }
+}
+
+body {
+  background-color: #fff;
+  animation: background-animation 1s ease infinite;
+}
+
+@keyframes background-animation {
+  0% {
+    background-color: red;
+  }
+  6.25% {
+    background-color: orange;
+  }
+  12.5% {
+    background-color: yellow;
+  }
+  18.75% {
+    background-color: lime;
+  }
+  25% {
+    background-color: green;
+  }
+  31.25% {
+    background-color: turquoise;
+  }
+  37.5% {
+    background-color: cyan;
+  }
+  43.75% {
+    background-color: blue;
+  }
+  50% {
+    background-color: navy;
+  }
+  56.25% {
+    background-color: purple;
+  }
+  62.5% {
+    background-color: magenta;
+  }
+  68.75% {
+    background-color: pink;
+  }
+  75% {
+    background-color: salmon;
+  }
+  81.25% {
+    background-color: beige;
+  }
+  87.5% {
+    background-color: brown;
+  }
+  93.75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: #fff;
+  }
+}
+
+/* Gaya untuk header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Gaya untuk konten */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Gaya untuk gambar */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Gaya untuk tombol */
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Gaya untuk link */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Gaya responsif untuk layar kecil */
+@media only screen and (max-width: 600px) {
+  /* Gaya untuk kontainer */
+  .container {
+    padding: 10px;
+  }
+
+  /* Gaya untuk gambar */
+  img {
+    margin-bottom: 10px;
+  }
+
+  /* Gaya untuk proyek */
+  ul li {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  /* Gaya untuk tombol */
+  button {
+    margin-top: 10px;
+  }
+}
+
+footer {
+  text-align: center;
+}
